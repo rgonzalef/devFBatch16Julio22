@@ -1,0 +1,23 @@
+{
+  "name": "otro-nombre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "holaMundo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikemaya/devFBatch16Julio22.git"
+  },
+  "keywords": [],
+  "author": "Enrique Maya <enrique.mg.cd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kikemaya/devFBatch16Julio22/issues"
+  },
+  "homepage": "https://github.com/kikemaya/devFBatch16Julio22#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
