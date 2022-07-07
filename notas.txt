@@ -1,3 +1,15 @@
+Javascript, DEFINICION:
+
+Un lenguaje multiparadigma, principalmente orientado a prototipos. De alto nivel. Tipado dinàmico. Que trabaja en un solo hilo del procesador de forma concurrente.
+
+================================================================================================================
+TIPADO DINÀMICO vs ESTÀTICO
+
+var tres = 'tres' -> no especìfica el tipo de dato, tipado debil/dinàmico
+
+int X = 10; -> especìfica el tipo de dato, tipado fuerte/estàtico
+
+================================================================================================================
 Node js.
 NO ES:
     - Un lenguaje de programaciòn
@@ -49,3 +61,29 @@ DEFINICIÒN:
 Es una representación de árbol de la estructura sintáctica abstracta del texto
 (a menudo código fuente) escrito en un lenguaje formal. Cada nodo del árbol
 denota una construcción que ocurre en el texto.
+
+===============================================================================================================
+PROCESADOR:
+
+Componente de Hardware que se dedica a hacer computos/calculos y a recibir y transmitir instrucciones en còdigo binario/patrones de pulsos electricos.
+
+2 componentes fundamentales:
+
+* Core/nùcleo(hardware):
+
+Es un procesador, dentro del procesador(sub procesadores). Se encarga de administrar procesos(programas)
+- Cada nùcleo, va administrar un programa y si tienes màs de uno, los programas se van a ejecutar en paralelo/al mismo tiempo.
+
+* Thread/hilo/procesadores lògicos(software):
+De forma estàndar, suelen ser 2 hilos por nùcleo.
+Encargados de administrar las tareas/instrucciones del proceso.
+
+Las tareas se pueden administrar y ejecutar de forma:
+
+- SECUENCIAL. Una instrucciòn a la vez,
+
+- PARALELA. Una serie de instrucciones que se reparten en màs de un hilo para ejecutar varias tareas al mismo tiempo y acabar màs rapido
+
+- CONCURRENTE. Una serie de instrucciones que simulan paralelismo en un solo hilo/menos recursos, ejecutandose de forma estrategica dandole prioridad a algunas instrucciones con 
+respecto a otras. Esta prioridad, la suele establecer el lenguaje ò el programador. En javascript, lo hace el event loop que puede vivir en el
+browser ò en node y depende de còmo el programador domine el flujo, para no bloquear el hilo.
