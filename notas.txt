@@ -5,9 +5,10 @@ Un lenguaje multiparadigma, principalmente orientado a prototipos. De alto nivel
 ================================================================================================================
 TIPADO DINÀMICO vs ESTÀTICO
 
-var tres = 'tres' -> no especìfica el tipo de dato, tipado debil/dinàmico
+var tres = 2 -> no especìfica el tipo de dato, tipado debil/dinàmico
 
 int X = 10; -> especìfica el tipo de dato, tipado fuerte/estàtico
+float y = 3.6789
 
 ================================================================================================================
 Node js.
