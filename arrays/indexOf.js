@@ -1,6 +1,7 @@
 "use strict";
 
-//IndexOf para buscar un valor
+//IndexOf sirve para buscar un valor
+
 let numeros = [1, 5, 3, 2, 4];
 
 function encontrarValor(numero) {
@@ -11,8 +12,8 @@ function encontrarValor(numero) {
     ? "Valor encontrado"
     : "El valor no esta en el array";
 }
-
 console.log(encontrarValor(8));
 
+// Tambien sirve para encontrar valores sobre un string
 let nombre = "Daniel";
 console.log(nombre.indexOf("i"));
