@@ -6,7 +6,18 @@
     },
     {
       "id": 2,
-      "nombre": "Daniel"
+      "nombre": "Daniel",
+      "mascotas": {
+        "gatos": ["Tizne", "Petra"],
+        "perros": ["blue", "Alfa", "Roco"],
+        "colores": [
+          {
+            "gris": 2,
+            "negro": 2,
+            "cafe": 1
+          }
+        ]
+      }
     },
     {
       "id": 3,
