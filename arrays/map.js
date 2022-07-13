@@ -15,7 +15,6 @@ const personas = [
 
 const datosPersonas1 = personas.map((dato) => {
   dato.mascota = "perro";
-  dato.nombre = "Cambio";
   if (dato.id == 2) dato.nombre = "Enrique";
   return dato;
 });
