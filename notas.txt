@@ -88,3 +88,20 @@ Las tareas se pueden administrar y ejecutar de forma:
 - CONCURRENTE. Una serie de instrucciones que simulan paralelismo en un solo hilo/menos recursos, ejecutandose de forma estrategica dandole prioridad a algunas instrucciones con 
 respecto a otras. Esta prioridad, la suele establecer el lenguaje ò el programador. En javascript, lo hace el event loop que puede vivir en el
 browser ò en node y depende de còmo el programador domine el flujo, para no bloquear el hilo.
+
+
+"use strict"
+// por defecto, js se ejecuta en modo descuidado, sloppy mode
+// cuando programas con js puro, se le conoce como vanilla javascript
+
+let enrique = "enrique"
+
+console.log(enrique)
+
+Authorization && Authentication
+
+Authentication: ¿quien eres?/identificarte
+Authorization: ¿què puedes hacer?/permisos
+
+crear apis de prueba online ;)
+https://myjson.dit.upm.es/6ncq
