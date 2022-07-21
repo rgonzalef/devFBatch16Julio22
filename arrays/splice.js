@@ -15,7 +15,6 @@ var valoresEliminados = palabras.splice(1, 2, "Mansion", "Perro", "Jamon", "Ola"
 console.log('valoresEliminados ', valoresEliminados);
 console.log('palabras ', palabras);
 
-
 // Tambien existe replace para sustituir una palabra en un string
 const frase = "Hola como estas!";
 console.log(frase.replace('Hola', 'olo'));
