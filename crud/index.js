@@ -1,5 +1,7 @@
 "use strict"
 
+const { v4: uuidv4 } = require('uuid');
+
 const d = document
 
 const input_todo = d.getElementById('input-todo')
@@ -29,7 +31,7 @@ const printTasks = (task, id) => {
   li.appendChild(btn_1)
   li.appendChild(btn_2)
 
-  content_w.appendChild(li)  
+  content_w.appendChild(li)
 }
 
 const getData = () => {
@@ -47,4 +49,21 @@ const getData = () => {
     })
 }
 
+const postData = (task) => {
+  fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      "id": uuidv4(),
+      "task": task
+    })
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error))
+}
+
 getData()
+postData("Ver una serie")
