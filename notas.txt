@@ -107,5 +107,20 @@ https://myjson.dit.upm.es/6ncq
 
 //NOTA: En funciones constructoras, SIEMPRE se utiliza 'this',
 osea que no podemos usar arrow functions para crear estas funciones, porque 'this' no se puede usar en arrow functions
+===============================================================================================================
 
+APIS
 los headers, son configuraciones de una peticion HTTP
+el body, es elcuerpo de la peticion. Contiene los datos que recibimos ò enviamos
+===============================================================================================================
+
+DEFINICIÒN: 
+
+* TRANSPILADOR:
+  
+  Transpilador es un tipo especial de compilador que
+  traduce de un lenguaje fuente a otro fuente también
+  de un nivel de abstracción parecido. Se diferencia de
+  los compiladores tradicionales en que estos reciben
+  como entrada ficheros conteniendo código fuente y
+  generan código máquina del más bajo nivel.
