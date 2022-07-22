@@ -107,3 +107,5 @@ https://myjson.dit.upm.es/6ncq
 
 //NOTA: En funciones constructoras, SIEMPRE se utiliza 'this',
 osea que no podemos usar arrow functions para crear estas funciones, porque 'this' no se puede usar en arrow functions
+
+los headers, son configuraciones de una peticion HTTP
