@@ -5,7 +5,8 @@
   "main": "holaMundo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./express/index.js"
+    "dev": "nodemon ./express/index.js",
+    "browseri-bundle": "browserify ./crud/index.js -o ./crud/bundle.js"
   },
   "repository": {
     "type": "git",
